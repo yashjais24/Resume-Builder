@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { ArrowLeft, Download } from "lucide-react";
 import { Header } from "./Header";
 import api from "../services/api";

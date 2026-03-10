@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Sparkles, Zap, Download } from 'lucide-react';
 import { Header } from './Header';
 import { ImageWithFallback } from './image/ImageWithFallback';

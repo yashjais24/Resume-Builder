@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { CheckCircle, Download, Home } from 'lucide-react';
 import { Header } from './Header';
 import axios from "axios";
