@@ -11,7 +11,7 @@ export function Header({ onNavigate, currentPage = 'home' }) {
           <div className="w-8 h-8 bg-[#4F46E5] rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
             <FileText className="w-5 h-5 text-white" />
           </div>
-          <span className="text-xl text-gray-900">ResuME</span>
+          <span className="text-xl text-gray-900">ResuMe</span>
         </button>
         
         <nav className="flex gap-8">
