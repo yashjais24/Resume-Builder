@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { Sparkles, Zap, Download } from 'lucide-react';
 import { Header } from './Header';
 import { ImageWithFallback } from './image/ImageWithFallback';
@@ -86,6 +86,9 @@ export function HomePage({ onNavigate }) {
           </div>
         </motion.div>
       </section>
+
+     
+      
     </div>
   );
 }

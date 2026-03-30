@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Sparkles, Plus } from "lucide-react";
 import { Header } from "./Header";
 import { improveSummary, suggestSkills, improveProject } from "../services/ai";
