@@ -1,0 +1,59 @@
+# ===========================
+# PYTHON BACKEND
+# ===========================
+
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+backend/venv/
+
+# Environment variables
+.env
+
+# Cache / Logs / DB
+.pytest_cache/
+*.log
+*.sqlite3
+
+# Build
+dist/
+build/
+
+# ===========================
+# FRONTEND
+# ===========================
+
+# Node modules
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend env
+frontend/.env
+frontend/.env.local
+
+# ===========================
+# OS & EDITOR
+# ===========================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
