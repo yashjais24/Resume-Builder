@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("sk-e4281a76065d4090a70db6ba7270d9e8")
+API_KEY = os.getenv("DEEPSEEK_API_KEY")
 
 if not API_KEY:
     raise RuntimeError("DEEPSEEK_API_KEY missing in environment variables.")
