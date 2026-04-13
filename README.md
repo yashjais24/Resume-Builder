@@ -26,3 +26,29 @@ Backend
  render.yaml → Backend deployment config (Render)
 
 These files help in logic separation, dependency management, and deployment setup.
+
+Megha Verma || 2400520100051
+
+Frontend
+
+The frontend is built using React (Vite) and handles the user interface for resume creation and interaction with backend APIs.
+
+src/components/ → Reusable UI components (forms, buttons, layout elements)
+
+src/pages/ → Main application pages (home, editor, preview, etc.)
+
+src/App.jsx → Root component managing routing and layout
+
+index.html → Main HTML entry point
+
+Vidushi Pandey || 2400520100074
+
+Frontend
+
+src/services/ → API integration with backend (AI & PDF endpoints)
+
+src/utils/ → Helper functions and data handling logic
+
+vite.config.js → Frontend build and development configuration
+
+package.json → Project dependencies and scripts
