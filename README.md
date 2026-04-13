@@ -43,16 +43,3 @@ index.html → Main HTML entry point
 
 This part focuses on building the UI structure and ensuring smooth navigation across different sections of the application.
 
-Vidushi Pandey || 2400520100074
-
-Frontend
-
-src/services/ → API integration with backend (AI & PDF endpoints)
-
-src/utils/ → Helper functions and data handling logic
-
-vite.config.js → Frontend build and development configuration
-
-package.json → Project dependencies and scripts
-
-This part handles API communication, data processing, and connects frontend actions to backend functionality.
