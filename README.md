@@ -1,45 +1,58 @@
-Yash Jaiswal || 2400520100078
+# Resume Builder
 
-Backend (ResuMe)
+This project is a resume builder application with a FastAPI backend and a React + Vite frontend. It supports AI-driven resume generation, PDF creation, and a responsive UI for building and previewing resumes.
 
-The backend is built using FastAPI.
+## Project Structure
 
-Functions:
+### Backend
+- Built with FastAPI
+- `main.py` → backend server entry point
+- `routes/` → API endpoints for AI integration and PDF generation
+- `templates/` → HTML templates used for resume generation
+- `utils/` → core AI and PDF helper logic
+- `requirements.txt` → backend Python dependencies
+- `render.yaml` → deployment configuration for Render
 
-main.py → Entry point of the backend server
+### Frontend
+- Built with React and Vite
+- `src/App.jsx` → root component and routing setup
+- `src/components/` → reusable UI components for resume creation
+- `src/components/image/ImageWithFallback.jsx` → image fallback handling
+- `src/components/ui/` → shared UI primitives and controls
+- `src/pages/` → main page layouts such as home and preview
+- `src/services/ai.js` → AI-related frontend service
+- `src/services/api.js` → backend API integration
+- `src/index.css` → base frontend styles
+- `src/styles/global.css` → global application styles
+- `index.html` → HTML entry point for the Vite app
 
-routes/ → Handles API endpoints (AI & PDF related)
+## Contributors
 
-templates/ → HTML templates for resume generation
+### Yash Jaiswal || 2400520100078
+- Backend architecture and FastAPI setup
+- Implemented routing for AI and PDF endpoints
+- Managed HTML template flow for resume generation
 
-This part handles API routing and connects frontend requests to backend logic.
+### Krrish Verma || 2400520100045
+- Developed core backend logic in `utils/`
+- Set up backend dependency management in `requirements.txt`
+- Created deployment config in `render.yaml`
 
+### Megha Verma || 2400520100051
+- Built React frontend structure and page layouts
+- Implemented reusable components in `src/components/`
+- Managed root app routing and layout in `src/App.jsx`
+- Established frontend entrypoint via `index.html`
 
-Krrish Verma || 2400520100045
+### Vidushi Pandey || 2400520100074
+- Designed and implemented the `Header`, `HomePage`, and `PreviewPage` React components
+- Established the frontend component organization and project structure
+- Developed responsive styling in `src/index.css` and `src/styles/global.css`
+- Integrated navigation and preview workflows for the resume UI
+- Ensured consistent visual design and layout across frontend pages
 
-Backend
-
- utils/ → Core logic (AI + PDF functions)
-  
- requirements.txt → Python dependencies
-  
- render.yaml → Backend deployment config (Render)
-
-These files help in logic separation, dependency management, and deployment setup.
-
-Megha Verma || 2400520100051
-
-Frontend
-
-The frontend is built using React (Vite) and handles the user interface for resume creation and interaction with backend APIs.
-
-src/components/ → Reusable UI components (forms, buttons, layout elements)
-
-src/pages/ → Main application pages (home, editor, preview, etc.)
-
-src/App.jsx → Root component managing routing and layout
-
-index.html → Main HTML entry point
-
-This part focuses on building the UI structure and ensuring smooth navigation across different sections of the application.
+## Notes
+- The backend and frontend are separated in `backend/` and `frontend/` folders respectively.
+- Frontend services connect to backend APIs for AI and resume generation features.
+- UI primitives in `src/components/ui/` support consistent styling and reusable behavior.
 
