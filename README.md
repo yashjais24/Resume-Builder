@@ -2,6 +2,10 @@
 
 This project is a resume builder application with a FastAPI backend and a React + Vite frontend. It supports AI-driven resume generation, PDF creation, and a responsive UI for building and previewing resumes.
 
+## Live Demo
+
+http://resume-miniproject-831161436301-eu-north-1-an.s3-website.eu-north-1.amazonaws.com/
+
 ## Project Structure
 
 ### Backend
